@@ -34,7 +34,7 @@ h2 {
   margin: 60px auto 30px auto;
 }
 
-p {
+.main-text {
   color: var(--grey);
   font-family: 'Space Mono', monospace;
   font-size: 18px;
@@ -72,6 +72,10 @@ button {
 /* --------------------------------------------- 3. Layout ------------------------------------------------------- */
 body {
   width: 90vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: auto;
 }
 
@@ -86,3 +90,32 @@ img {
 }
 
 /* --------------------------------------------- 4. Media Queries ------------------------------------------------ */
+@media screen and (min-width: 768px) {
+  /* --------- 2. Typography --------- */
+  h2 {
+    font-size: 64px;
+    line-height: 94.78px;
+  }
+
+  .main-text {
+    font-size: 24px;
+    line-height: 35.54px;
+    width: 70%;
+  }
+
+  /* --------- 3. Layout --------- */
+  header {
+    margin: 40px 0 0 0;
+  }
+
+  main {
+    display: flex;
+    margin: 200px auto 308px auto;
+    gap: 10%;
+  }
+
+  img,
+  .right {
+    width: 45%;
+  }
+}
