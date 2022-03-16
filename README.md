@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://chadlyriedewald.github.io/devchallenges-404-not-found/">
+    <a href="https://chadlyriedewald.github.io/devChallenges-404-not-found/">
       Demo
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://chadlyriedewald.github.io/devchallenges-404-not-found/assets/screenshot.png)
+![screenshot](https://chadlyriedewald.github.io/devChallenges-404-not-found/assets/screenshot.png)
 
 Started with a mobile first approach. Then after that was completed i made some adjustments for the full-sized page.
 
