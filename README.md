@@ -36,8 +36,6 @@
 
 ## Overview
 
-![screenshot](https://chadlyriedewald.github.io/devChallenges-404-not-found/assets/screenshot.png)
-
 Started with a mobile first approach. Then after that was completed i made some adjustments for the full-sized page.
 
 ### Built With
